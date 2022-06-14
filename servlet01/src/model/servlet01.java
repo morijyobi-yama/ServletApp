@@ -17,7 +17,7 @@ public class servlet01 extends HttpServlet {
 
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		System.out.println("Hello Servlet!");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
